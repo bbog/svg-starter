@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+<head>
+	<title>SVG Starter Kit</title>
+
+	<style>
+		html, body, .container {
+			width: 100%;
+			height: 100%;
+			margin: 0;
+			padding: 0;
+		}
+
+		.container {
+			text-align: center;
+		}
+
+		.block {
+			width: 48%;
+			height: 100%;
+			display: inline-block;
+			border: 1px solid #ccc;
+			vertical-align: top;
+			margin-top: 1em;
+			padding-top: 1em;
+		}
+
+		#svg {
+			width: 90%;
+			height: auto;
+			border: 1px solid #eee;
+		}
+
+	</style>
+</head>
+<body>
+
+	<div class="container">
+		<div class="block">
+			<object id="svg" data="object.svg" type="image/svg+xml"></object>
+		</div>
+		<div class="block">
+			Reference placeholder
+			<!-- <img src="reference.png"/> -->
+		</div>
+	</div>
+
+</body>
+</html>
